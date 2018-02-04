@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Welcome-Danny's Pianos</title>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type"> 
+        <meta name="description" content="Magnífica tienda de pianos y otros instrumentos de teclas" />
+        <meta name="keywords" content="Piano, Comprar, tienda, barato,rapido,bueno, mejor, 2018, 2017 "/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Theme.css"/>
+        <script src="Scripts.js"></script>
+    </head>
+    <body>	
+        <a  href="Compra.html"><p id="hiddenIndex">0</p></a>
+        <header>        
+            <nav class="MainMenu">
+                <ul class="ulMain">
+                    <li id= "primerli" class="norm"><img id="logo" src="logo.png" title="Siente!" ></li>
+                    <li class="norm"> <a href="Main.html">Home</a> </li>
+                    <li id="menunoa">Productos
+                        <ul class="ulProduct">
+                            <li id="pianos"><a href="Pianos.html">Pianos</a> 
+                                <ul class="ulPianos">
+                                    <li><a href="PianosDeCola.html">Pianos de cola</a></li>
+                                    <li><a href="PianosDePared.html">Pianos de pared</a></li>
+                                </ul>
+                            </li>
+                            <li id="acordeones"><a href="Acordeones.html">Acordeones</a>
+                                <ul class="ulAcor">
+                                    <li><a href="AcordeonesDePiano.html">Acordeones de piano</a></li>
+                                    <li><a href="AcordeonesDeBotones.html">Acordeones de botones</a></li>
+                                    <li><a href="AcordeonesDeSteir.html">Acordeones de Steir</a></li>
+                                    <li><a href="ModelosEspeciales.html">Modelos especiales</a></li>
+                                </ul>
+                            </li>
+                            <li id="organos"><a href="Órganos.html">Órganos</a>
+                                <ul class="ulOrg">
+                                    <li><a href="Obras.html">Órganos sacrales de un manual</a></li>
+                                    <li><a href="Obras.html">Órganos sacrales de dos manuales</a></li>
+                                    <li><a href="Obras.html">Órganos sacrales de tres manuales</a></li>
+                                    <li><a href="Obras.html">Órganos electrónicos</a></li>
+                                </ul>
+                            </li>
+                            <li id="teclados"><a href="Teclados.html">Teclados</a>
+                                <ul class="ulElec">
+                                    <li><a href="Obras.html"> Pianos electrónicos</a></li>
+                                    <li><a href="Obras.html"> Sintetizadores</a></li>
+                                    <li><a href="Obras.html">Work Stations</a></li>
+                                    <li><a href="Obras.html">Teclados MIDI</a></li>
+                                    <li><a href="Obras.html">Pianos digitales sin arranger</a></li>
+                                    <li><a href="Obras.html">Pianos digitales con arranger</a></li>
+                                    <li><a href="Obras.html">Pianos digitales compactos</a></li>
+                                    <li><a href="Obras.html">Secuenciadores de ritmos</a></li>
+                                </ul>
+                            </li>
+                            <li id="accesorios"><a href="Accesorios.html">Accesorios</a>
+                                <ul class="ulAc">
+                                    <li><a href="Obras.html">Bancos y taburetes</a></li>
+                                    <li><a href="Obras.html"> Pedales</a></li>
+                                    <li><a href="Obras.html">Soportes</a></li>
+                                    <li><a href="Obras.html">Software</a></li>
+                                    <li><a href="Obras.html">Amplificadores</a></li>
+                                    <li><a href="Obras.html">Fundas</a></li>
+                                    <li><a href="Obras.html">Lámparas</a></li>
+                                    <li><a href="Obras.html">Otros accesorios</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Obras.html">Partituras</a></li>                
+                        </ul>
+                    </li>
+                    <li class="norm"> <a href="Newsletter.html">Newsletter</a> </li>
+                    <li class="norm"> <a href="Minijuego.html">Play</a> </li>
+                    <li class="norm"><a href="Contact.html">Contacto</a> </li>
+                    <li id="space">      </li>
+                    <li class="norm"> <a  href="Compra.html"><img id="carritoimagen" src="carritoblancok.png" title="Compra!" ></a> </li>
+                </ul>   
+            </nav>
+            <div>
+                <select onchange="Ordenar(this)" name="Ordenarpor" id="Ordenar">
+                    <option disabled="disabled" selected="selected" value="default">Ordenar por</option>                        
+                    <option class="normalOrdenar" value="barato">Precio más barato primero</option>
+                    <option class="normalOrdenar" value="caro">Precio más caro primero</option>
+                    <option class="normalOrdenar" value="marca"> Marca A...Z</option>
+                    <option class="normalOrdenar" value="marca2">Marca Z...A</option>    
+                </select>
+            </div>
+        </header>
+		<main>
+                
+			<section id="listaArticulos">
+				<div class="articulo">                
+                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/371904.jpg"/>
+                    <span class="descripcion">
+                        <h1 class="item Kawai" id="Kawai GL 10 WHP Grand Piano">Kawai GL 10 WHP Grand Piano</h1>
+                        <ul>
+                            <li>Mecánica ultrasensible</li>
+                            <li>Martillos con fieltro en parte inferior</li>
+                            <li>Tapa del teclado de cierre suave</li>
+                            <li>Longitud: 153cm</li>
+                            <li>Acabado: Blanco pulido</li>
+                            <li>Peso: 282Kg</li>
+                        </ul> 
+                                               
+                    </span>
+                    
+                    <span class="precio"> <h1><span class="precioNum">10.222</span>€</h1></span> 
+                    <button class = "botonCesta" type="button" onclick="botonComprar('Kawai GL 10 WHP Grand Piano')">Añadir a la cesta</button>
+                          
+                </div>
+                <div class="articulo">                
+                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/366904.jpg"/>
+                    <span class="descripcion">
+                        <h1 class="item Steinway and Sons" id="Steinway and Sons A188 Makassar" >Steinway and Sons A188 Makassar</h1>
+                        <ul>
+                            <li>Acabado: Madera de coromandel pulida</li>
+                            <li>Reconstruido por nuestros especialistas de Steinway y nuestro maestro constructor de pianos</li>
+                            <li>Incluye banco de alta calidad con aspecto de coromandel</li>
+                            <li>Longitud: 188cm</li>
+                            <li>El instrumento será puesto a punto y afinado acorde a tus necesidades</li>
+                            <li>Peso: 315Kg</li>
+                        </ul>                       
+                    </span>
+                    <span class="precio"><h1><span class="precioNum">41.888</span>€</h1></span>        
+                    <button class = "botonCesta" type="button" onclick="botonComprar('Steinway and Sons A188 Makassar')">Añadir a la cesta</button>
+                </div>
+                <div class="articulo">                
+                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/306040.jpg"/>
+                    <span class="descripcion">
+                        <h1 class="item Yamaha" id="Yamaha C7X SH PE Silent Grand Piano" >Yamaha C7X SH PE Silent Grand Piano</h1>
+                        <ul>
+                            <li>Con sistema SH-Silent-System</li>
+                            <li>Acabado: Negro pulido</li>
+                            <li>Longitud: 227cm (7' 6")</li>
+                            <li>Anchura: 155cm (61")</li>
+                            <li>Altura: 102cm (40 1/2")</li>
+                            <li>Peso: 415Kg (913 libras)</li>
+                        </ul>                       
+                    </span>
+                    <span class="precio"><h1><span class="precioNum">50.999</span>€</h1></span>       
+                    <button class = "botonCesta" type="button" onclick="botonComprar('Yamaha C7X SH PE Silent Grand Piano')">Añadir a la cesta</button>
+                </div>
+                <div class="articulo">                
+                        <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/306040.jpg"/>
+                        <span class="descripcion">
+                            <h1 class="item Yamaha" id="Yamaha GB1 K Black Polished" >Yamaha GB1 K Black Polished</h1>
+                            <ul>
+                                <li>Con sistema silencioso</li>
+                                <li>Lo mejor de todo, el GB1 ofrece la calidad y rendimiento de Yamaha a un precio sorprendentemente asequible</li>
+                                <li>Longitud: 151cm (5")</li>
+                                <li>Ancho: 146cm (57")</li>
+                                <li>Altura: 99cm (39")</li>
+                            </ul>                       
+                        </span>
+                        <span class="precio"><h1><span class="precioNum">13.888</span>€</h1></span>        
+                        <button class = "botonCesta" type="button" onclick="botonComprar('Yamaha GB1 K Black Polished')">Añadir a la cesta</button>
+                    </div>
+                <div class="articulo">                
+                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/200871.jpg"/>
+                    <span class="descripcion">
+                        <h1 class="item Blüthner" id="Blüthner Model 11" >Blüthner Model 11</h1>
+                        <ul>
+                            <li>La caja de resonancia está diseñada para equilibrar los graves y los agudos, y así mostrar un rendimiento sorprendente</li>    
+                            <li>Longitud: 154 cm</li>
+                            <li>Ancho: 149 cm</li>
+                            <li>Acabado negro pulido</li>
+                            <li>Calidez de los graves insuperable</li>
+                            <li>Peso: 261kg (574 libras)</li>
+                        </ul>                       
+                    </span>
+                    <span class="precio"><h1><span class="precioNum">35.555</span>€</h1></span>      
+                    <button class = "botonCesta" type="button" onclick="botonComprar('Blüthner Model 11')">Añadir a la cesta</button>  
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
