@@ -78,11 +78,12 @@
             </nav>
         </header>
         <main>
-
-
+            <h1 class="H1">Contacto</h1>
+            <div id="DivTxtCntct"><p id="TextoContact">Si tienes alguna duda o sugerencia, ¡no dudes en enviarnosla!<br/>
+                                                       Estamos encantados haciendo todo lo posible por ayudarte,<br/> comprenderte y aprender de ti.  </p></div>
             <div class="container">
                 <form action="/action_page.php">
-                    <h1>Contactanos!</h1>
+                    
               <div class="plaincont">
                   <label for="fname">Nombre</label>
                   <input type="text" id="fname" name="Nombre" class="plaincont" placeholder="Tu nombre..">
@@ -94,21 +95,30 @@
                   <input type="text" id="e-mail" name="e-mail" class="plaincont" placeholder="ejemplo@no.com">
                   
                   <label for="country">Pais</label>
-                  <select id="country" name="Pais">
+                  <select onchange="Selectpais(this)" id="country" name="Pais">
+                    <option value="Polonia">Polonia</option>
                     <option value="España">España</option>
                     <option value="Catalunya">Catalunya</option>
+                                                            
                     <option value="Senegal">Senegal</option>
-                    <option value="Polonia">Polonia</option>
+                    
                     <option value="Albania">Albania</option>
                     <option value="Republica democratica del Congo">República Democrática del Congo</option>
                   </select>
+                  <audio src="audio/Polonia.mp3"></audio>
+                  <audio src="audio/España.mp3"></audio>
+                  <audio id="estacaFun" src="audio/Estaca.mp3" ></audio>
+                  
+                  <audio src="audio/Senegal.mp3"></audio>
+                  <audio src="audio/Albania.mp3"></audio>
+                  <audio src="audio/Congo.mp3"></audio>
                   
               </div>
               <img id="ImgContact" src="imagenes/monstruoContac.png" title="Hablanos!" alt="Contactanos!">
                   <label for="subject">Mensaje</label>
                   <textarea id="subject" name="subject" placeholder="¿En que te podemos ayudar?" style="height:200px"></textarea>
               
-                  <input type="enviar" value="Enviar"> 
+                  <button  id="contactbut" type="enviar" value="Enviar"><a href="#">Enviar </a></button>
               
                 </form>
               </div> 

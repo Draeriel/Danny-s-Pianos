@@ -448,6 +448,57 @@ function play(img)
     }, 100);
     
 }
+
+
+
+function Selectpais(selectCountr){
+var Estacados=selectCountr.nextElementSibling;
+    Estacados.pause();
+    if (selectCountr.value=="Catalunya"){
+        
+        Estacados.pause();
+        Estacados=selectCountr.nextElementSibling.nextElementSibling.nextElementSibling;
+        
+        console.log(Estacados)
+        
+        Estacados.play();
+    }
+    if (selectCountr.value=="España"){
+        Estacados.pause();
+        Estacados=selectCountr.nextElementSibling.nextElementSibling
+        Estacados.play();
+    }
+    
+    if (selectCountr.value=="Polonia"){
+        Estacados.pause();
+        Estacados=selectCountr.nextElementSibling
+        Estacados.play();
+    }
+    if (selectCountr.value=="Albania"){
+        
+        Estacados.pause();
+        Estacados=selectCountr.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling;
+        
+        console.log(Estacados)
+        
+        Estacados.play();
+    }
+    if (selectCountr.value=="Republica democratica del Congo"){
+        Estacados.pause();
+        Estacados=selectCountr.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling;
+        Estacados.play();
+    }
+    if (selectCountr.value=="Senegal"){
+        
+        Estacados.pause();
+        Estacados=selectCountr.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling;
+        
+        console.log(Estacados)
+        
+        Estacados.play();
+    }
+   
+}
 /*Tengo que recorrer el array en busca de valores repetidos*/
 
  
@@ -491,3 +542,4 @@ function checkCookie() {
        }
     }
 }*/
+

@@ -403,9 +403,9 @@ margin-left:-19%
 </div>*/
 .frame{
     z-index: -1;
-    border: 2px;
+    border: 3px;
     border-style: solid;
-    border-color:#D5CC5A;
+    border-color:rgb(9, 255, 0);
     overflow: hidden;
     margin: 2em auto;
     max-width: 70%;
@@ -414,6 +414,7 @@ margin-left:-19%
     right: 10%;
     top:70%;
     margin-top: 35%;
+    box-shadow: 2px 3px rgb(90, 112, 84);
 
 }
 
@@ -422,7 +423,7 @@ margin-left:-19%
     border: 0px none; 
  
     height:45em; 
-    margin-top:-14em; 
+    margin-top:-18em; 
     width: 100%;
 }
 
@@ -779,9 +780,13 @@ visibility: collapse;
   margin-top: 4%;
 }
 
-#h1Noticias{
-  text-align: center;
+.H1{
+    margin-top:-5%;
+    font-size:4em;
+    text-align: center;
 }
+ 
+
 
 
 /*FOOTER SPRITE*/
@@ -849,7 +854,7 @@ input[type=text], #country, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=enviar] {
+#contactbut {
     background-color: #4CAF50;
     color: white;
     padding: 1.2em 0.5em;
@@ -860,7 +865,7 @@ input[type=enviar] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=enviar]:hover {
+#contactbut:hover {
     background-color: #45a049;
 }
 
@@ -892,7 +897,15 @@ input[type=enviar]:hover {
     
 }
 
-#NoticiasH1{
 
-    text-align: center;
+#DivTxtCntct{
+width: 100%;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 24%;
+}
+
+#TextoContact{
+    font-size:1.6em;
+    color: rgb(8, 27, 32)
 }
