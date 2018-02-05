@@ -53,9 +53,9 @@ function botonComprar(idclick){
             
             if (RegExp(/item.*/g).test(currentChild.firstElementChild.className)){   
                 console.log("sioque");
-                objetoProducto.tipo=currentChild.firstElementChild.id;
+                objetoProducto.tipo=currentChild.firstElementChild.innerHTML;
                 
-                console.log(objetoProducto);
+                console.log(objetoProducto.tipo);
             };
             if (currentChild.firstElementChild.firstElementChild){
                 
