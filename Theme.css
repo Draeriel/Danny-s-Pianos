@@ -923,6 +923,20 @@ margin-left: 24%;
     border: 2px solid red;
     position: absolute;
   }
-  #finalizarCompra:hover{
+
+
+#finalizarCompra:hover{
     animation: pulse .2s infinite;
   }
+
+#setSonidos {
+    display:block;
+    float: right;
+    width: 10%;
+}
+#labelsetSonidos{
+    display:block;
+    margin-left:86%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}

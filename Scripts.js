@@ -435,8 +435,11 @@ function Ordenar(selectOrden){
 
 };
 
-function play(img)
-{console.log(img);
+function play(img){
+    var selectedValue=document.getElementById("setSonidos").value
+
+    if (selectedValue=="piano"){
+    console.log(img);
     var audio=img.nextElementSibling;
     console.log(audio);
     //var audio = document.getElementById("audio1");
@@ -445,7 +448,32 @@ function play(img)
     setTimeout(function() {
      img.style.backgroundColor="rgba(63,191,93,0)";
      console.log("hitime");   
-    }, 100);
+    }, 100);}
+
+    if (selectedValue=="violin"){
+        console.log(img);
+    var audio=img.nextElementSibling.nextElementSibling;
+    console.log(audio);
+    //var audio = document.getElementById("audio1");
+    img.style.backgroundColor="rgba(63,191,93,0.6)";
+    audio.play();
+    setTimeout(function() {
+    img.style.backgroundColor="rgba(63,191,93,0)";
+     console.log("hitime");   
+    }, 100);}
+
+    if (selectedValue=="ocarina"){
+        console.log(img);
+    var audio=img.nextElementSibling.nextElementSibling.nextElementSibling;
+    console.log(audio);
+    //var audio = document.getElementById("audio1");
+    img.style.backgroundColor="rgba(63,191,93,0.6)";
+    audio.play();
+    setTimeout(function() {
+    img.style.backgroundColor="rgba(63,191,93,0)";
+     console.log("hitime");   
+    }, 100);}
+
     
 }
 
