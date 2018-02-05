@@ -21,12 +21,13 @@ body{background: linear-gradient(135deg, rgb(250, 152, 229), rgb(16, 223, 223), 
 }
 .productos:hover .producto{z-index: 0;}		
 
-.producto p{position: absolute;
+.text{position: absolute;
 	margin-left: 23%;
 	color: black;
     font-family: "Gill Sans";
+    text-decoration: none;
 }
-.producto p:hover{color: blue;
+.text:hover{color: blue;
 }	
 
 
