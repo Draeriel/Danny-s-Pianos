@@ -13,7 +13,7 @@
         <header>        
             <nav class="MainMenu">
                 <ul class="ulMain">
-                    <li id= "primerli" class="norm"><img id="logo" src="logo.png" title="Siente!" ></li>
+                    <li id= "primerli" class="norm"><img id="logo" src="logo.png" title="Siente!" alt="Siente!"></li>
                     <li class="norm"> <a href="Main.html">Home</a> </li>
                     <li id="menunoa">Productos
                         <ul class="ulProduct">
@@ -70,28 +70,19 @@
                     <li class="norm"> <a href="Minijuego.html">Play</a> </li>
                     <li class="norm"><a href="Contact.html">Contacto</a> </li>
                     <li id="space">      </li>
-                    <li class="norm"> <a  href="Compra.html"><img id="carritoimagen" src="carritoblancok.png" title="Compra!" ></a>
+                    <li class="norm"> <a  href="Compra.html"><img id="carritoimagen" src="carritoblancok.png" title="Compra!" alt="Compra!"></a>
                         <ul>
                             <li><a id="hiddenIndex" href="Compra.html">0</a></li>
                         </ul> </li>
                 </ul>   
             </nav>
-            <div>
-                <select onchange="Ordenar(this)" name="Ordenarpor" id="Ordenar">
-                    <option disabled="disabled" selected="selected" value="default">Ordenar por</option>                        
-                    <option class="normalOrdenar" value="barato">Precio más barato primero</option>
-                    <option class="normalOrdenar" value="caro">Precio más caro primero</option>
-                    <option class="normalOrdenar" value="marca"> Marca A...Z</option>
-                    <option class="normalOrdenar" value="marca2">Marca Z...A</option>    
-                </select>
-            </div>
         </header>
 		<main>     
 			<section id="listaArticulos">
 				<div class="articulo">                
-                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/398416.jpg"/>
-                    <span class="descripcion">
-                        <h1 class="item Roland" id="Roland FR-4 X BK">Roland FR-4 X BK</h1>
+                    <img alt="1" src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/398416.jpg"/>
+                    <div class="descripcion">
+                        <h1 class="item Roland" id="RolandFR-4XBK">Roland FR-4 X BK</h1>
                         <ul>
                             <li>Toma de auriculares y salida de línea</li>
                             <li>100 sets de sonidos de acordeón (67 Presets)</li>
@@ -100,14 +91,14 @@
                             <li>Efectos Chorus, Reverb y Rotary integrados</li>
                             <li>Grabador de audio integrado</li>
                         </ul>                            
-                    </span>
-                    <span class="precio"> <h1><span class="precioNum">3.058</span>€</h1></span> 
-                    <button class = "botonCesta" type="button" onclick="botonComprar('Roland FR-4 X BK')">Añadir a la cesta</button>           
+                    </div>
+                    <div class="precio"> <h1><span class="precioNum">3.058</span>€</h1></div> 
+                    <button class = "botonCesta" type="button" onclick="botonComprar('RolandFR-4XBK')">Añadir a la cesta</button>           
                 </div>
                 <div class="articulo">                
-                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/312673.jpg"/>
-                    <span class="descripcion">
-                        <h1 class="item Roland" id="Roland FR-8 X BK">Roland FR-8 X BK</h1>
+                    <img alt="2" src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/312673.jpg"/>
+                    <div class="descripcion">
+                        <h1 class="item Roland" id="RolandFR-8XBK">Roland FR-8 X BK</h1>
                         <ul>
                             <li>120 botones de bajo sensibles</li>
                             <li>Modo Free Bass</li>
@@ -116,14 +107,14 @@
                             <li>180 sonidos de orquesta</li>
                             <li>1400 programas de usuario</li>    
                         </ul>                            
-                    </span>
-                    <span class="precio"> <h1><span class="precioNum">4.299</span>€</h1></span> 
-                    <button class = "botonCesta" type="button" onclick="botonComprar('Roland FR-8 X BK')">Añadir a la cesta</button>           
+                    </div>
+                    <div class="precio"> <h1><span class="precioNum">4.299</span>€</h1></div> 
+                    <button class = "botonCesta" type="button" onclick="botonComprar('RolandFR-8XBK')">Añadir a la cesta</button>           
                 </div>
                 <div class="articulo">                
-                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/197942.jpg"/>
-                    <span class="descripcion">
-                        <h1 class="item Weltmeister" id="Weltmeister Achat 34/72/III/5/3 Black">Weltmeister Achat 34/72/III/5/3 Black</h1>
+                    <img alt="3" src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/197942.jpg"/>
+                    <div class="descripcion">
+                        <h1 class="item Weltmeister" id="WeltmeisterAchat34/72/III/5/3Black">Weltmeister Achat 34/72/III/5/3 Black</h1>
                         <ul>
                             <li>3 registros de bajo</li>
                             <li>4 coros de bajo</li>
@@ -131,9 +122,9 @@
                             <li>Color: Negro</li>
                             <li>Incluye maleta y correas Weltmeister 34/37 Standard</li>
                         </ul>                            
-                    </span>
-                    <span class="precio"> <h1><span class="precioNum">1.599</span>€</h1></span> 
-                    <button class = "botonCesta" type="button" onclick="botonComprar('Weltmeister Achat 34/72/III/5/3 Black')">Añadir a la cesta</button>           
+                    </div>
+                    <div class="precio"> <h1><span class="precioNum">1.599</span>€</h1></div> 
+                    <button class = "botonCesta" type="button" onclick="botonComprar('WeltmeisterAchat34/72/III/5/3Black')">Añadir a la cesta</button>           
                 </div>
             </section>
         </main>

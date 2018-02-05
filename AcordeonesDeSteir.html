@@ -13,7 +13,7 @@
         <header>        
             <nav class="MainMenu">
                 <ul class="ulMain">
-                    <li id= "primerli" class="norm"><img id="logo" src="logo.png" title="Siente!" ></li>
+                    <li id= "primerli" class="norm"><img id="logo" src="logo.png" title="Siente!" alt="Siente!"></li>
                     <li class="norm"> <a href="Main.html">Home</a> </li>
                     <li id="menunoa">Productos
                         <ul class="ulProduct">
@@ -70,28 +70,19 @@
                     <li class="norm"> <a href="Minijuego.html">Play</a> </li>
                     <li class="norm"><a href="Contact.html">Contacto</a> </li>
                     <li id="space">      </li>
-                    <li class="norm"> <a  href="Compra.html"><img id="carritoimagen" src="carritoblancok.png" title="Compra!" ></a>
+                    <li class="norm"> <a  href="Compra.html"><img id="carritoimagen" src="carritoblancok.png" title="Compra!" alt="Compra!"></a>
                         <ul>
                             <li><a id="hiddenIndex" href="Compra.html">0</a></li>
                         </ul> </li>
                 </ul>   
             </nav>
-            <div>
-                <select onchange="Ordenar(this)" name="Ordenarpor" id="Ordenar">
-                    <option disabled="disabled" selected="selected" value="default">Ordenar por</option>                        
-                    <option class="normalOrdenar" value="barato">Precio más barato primero</option>
-                    <option class="normalOrdenar" value="caro">Precio más caro primero</option>
-                    <option class="normalOrdenar" value="marca"> Marca A...Z</option>
-                    <option class="normalOrdenar" value="marca2">Marca Z...A</option>    
-                </select>
-            </div>
         </header>
 		<main>     
 			<section id="listaArticulos">
 				<div class="articulo">                
-                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/392198.jpg"/>
-                    <span class="descripcion">
-                        <h1 class="item Zupan" id="Zupan Eco4/III Harmonika GCFBb Alder">Zupan Eco4/III Harmonika GCFBb Alder</h1>
+                    <img alt="1" src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/392198.jpg"/>
+                    <div class="descripcion">
+                        <h1 class="item Zupan" id="ZupanEco4/IIIHarmonikaGCFBbAlder">Zupan Eco4/III Harmonika GCFBb Alder</h1>
                         <ul>
                             <li>Toma de auriculares y salida de línea</li>
                             <li>100 sets de sonidos de acordeón (67 Presets)</li>
@@ -100,14 +91,14 @@
                             <li>Efectos Chorus, Reverb y Rotary integrados</li>
                             <li>Grabador de audio integrado</li>
                         </ul>                            
-                    </span>
-                    <span class="precio"> <h1><span class="precioNum">3.890</span>€</h1></span> 
-                    <button class = "botonCesta" type="button" onclick="botonComprar('Zupan Eco4/III Harmonika GCFBb Alder')">Añadir a la cesta</button>           
+                    </div>
+                    <div class="precio"> <h1><span class="precioNum">3.890</span>€</h1></div> 
+                    <button class = "botonCesta" type="button" onclick="botonComprar('ZupanEco4/IIIHarmonikaGCFBbAlder')">Añadir a la cesta</button>           
                 </div>
                 <div class="articulo">                
-                    <img src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/244680.jpg"/>
-                    <span class="descripcion">
-                        <h1 class="item Kärntnerland" id="Kärntnerland Edelholz Plus G/C/F/Bb">Kärntnerland Edelholz Plus G/C/F/Bb</h1>
+                    <img alt="2" src ="https://thumbs.static-thomann.de/thumb/thumb150x150/pics/prod/244680.jpg"/>
+                    <div class="descripcion">
+                        <h1 class="item Kärntnerland" id="KärntnerlandEdelholzPlusG/C/F/Bb">Kärntnerland Edelholz Plus G/C/F/Bb</h1>
                         <ul>
                             <li>Aplicación de arce natural</li>
                             <li>Bastidor reducido en 2 cm</li>
@@ -116,9 +107,9 @@
                             <li>Lengüetas de gran calidad</li>
                             <li>Bajos de thomann concierto 1-A</li>
                         </ul>                            
-                    </span>
-                    <span class="precio"> <h1><span class="precioNum">3.999</span>€</h1></span> 
-                    <button class = "botonCesta" type="button" onclick="botonComprar('Kärntnerland Edelholz Plus G/C/F/Bb')">Añadir a la cesta</button>           
+                    </div>
+                    <div class="precio"> <h1><span class="precioNum">3.999</span>€</h1></div> 
+                    <button class = "botonCesta" type="button" onclick="botonComprar('KärntnerlandEdelholzPlusG/C/F/Bb')">Añadir a la cesta</button>           
                 </div>
             </section>
         </main>		

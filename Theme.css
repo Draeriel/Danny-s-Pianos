@@ -26,6 +26,7 @@ body{background: linear-gradient(135deg, rgb(250, 152, 229), rgb(16, 223, 223), 
 	color: black;
     font-family: "Gill Sans";
     text-decoration: none;
+    
 }
 .text:hover{color: blue;
 }	
@@ -595,7 +596,7 @@ footer{position: fixed;
    z-index: -2;
 }
 
-#superficieBlanca2{
+.superficieBlanca2{
  
   z-index: 1;
   float: left;
@@ -604,7 +605,7 @@ footer{position: fixed;
   
   
 }
-#superficieNegra1{
+.superficieNegra1{
   z-index: 2;
   float:left;
   position:relative;
@@ -612,13 +613,13 @@ footer{position: fixed;
  
 }
 
-#superficieBlanca1{
+.superficieBlanca1{
     float: left;
     margin-left: 2em;
 
 }
 
-#superficieBlanca3{
+.superficieBlanca3{
  
   z-index: 1;
   float: left;
@@ -628,7 +629,7 @@ footer{position: fixed;
   
   
 }
-#superficieNegra2{
+.superficieNegra2{
   z-index: 2;
   float:left;
   position:relative;
@@ -636,7 +637,7 @@ footer{position: fixed;
  
 }
 
-#superficieBlanca4{
+.superficieBlanca4{
  
   z-index: 1;
   float: left;
@@ -646,7 +647,7 @@ footer{position: fixed;
   
   
 }
-#superficieNegra3{
+.superficieNegra3{
   z-index: 2;
   float:left;
   position:relative;
@@ -654,7 +655,7 @@ footer{position: fixed;
  
 }
 
-#superficieBlanca5{
+.superficieBlanca5{
  
   z-index: 1;
   float: left;
@@ -664,7 +665,7 @@ footer{position: fixed;
   
   
 }
-#superficieNegra4{
+.superficieNegra4{
   z-index: 2;
   float:left;
   position:relative;
@@ -672,7 +673,7 @@ footer{position: fixed;
  
 }
 
-#superficieBlanca6{
+.superficieBlanca6{
  
   z-index: 1;
   float: left;
@@ -682,7 +683,7 @@ footer{position: fixed;
   
   
 }
-#superficieNegra5{
+.superficieNegra5{
   z-index: 2;
   float:left;
   position:relative;
@@ -690,7 +691,7 @@ footer{position: fixed;
   top:-39em
 }
 
-#superficieBlanca7{
+.superficieBlanca7{
  
   z-index: 1;
   float: left;
@@ -777,7 +778,7 @@ visibility: collapse;
 }
 
 #finalizarCompra{
-  margin-left:80%;
+  margin-left:76%;
   margin-top: 4%;
 }
 
@@ -910,3 +911,18 @@ margin-left: 24%;
     font-size:1.6em;
     color: rgb(8, 27, 32)
 }
+
+#finalizarCompra{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(30, 214, 30);
+    border-radius: 2em;
+    border: 2px solid red;
+    position: absolute;
+  }
+  #finalizarCompra:hover{
+    animation: pulse .2s infinite;
+  }
