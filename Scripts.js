@@ -483,7 +483,7 @@ var Estacados=selectCountr.nextElementSibling;
         
         Estacados.play();
     }
-    if (selectCountr.value=="Republica democratica del Congo"){
+    if (selectCountr.value=="Kurdistan"){
         Estacados.pause();
         Estacados=selectCountr.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling;
         Estacados.play();
